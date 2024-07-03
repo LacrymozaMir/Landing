@@ -240,8 +240,6 @@
     };
 }
 
-
-
 .pains__conclusion__text {
     text-align: center;
     font-weight: 600;
@@ -254,5 +252,112 @@
     
     @media (max-width: 767px) {
         font-size: calc(20px + 4 * (100vw - 320px) / 768);
+    };
+}
+
+.help {
+    margin: 0;
+    background-color: #F9FAFD;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+.help__header__container {
+    text-align: center;
+    margin: 0 16px;
+
+    @media (min-width: 768px) {
+        margin-bottom: 80px;
+    };
+    
+    @media (max-width: 767px) {
+        margin-bottom: 56px;
+    };
+}
+
+.help__header__text {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+
+    @media (min-width: 768px) {
+        font-size: 40px;
+        margin-top: 144px;
+    };
+    
+    @media (max-width: 767px) {
+        margin-top: 96px;
+        font-size: calc(32px + 6 * (100vw - 320px) / 768);
+    };
+}
+
+.help__header__desription {
+    margin: 0;
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    };
+    
+    @media (max-width: 767px) {
+        font-size: calc(18px + 2 * (100vw - 320px) / 768);
+    };
+}
+
+.help__cards__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    @media (min-width: 980px) {
+        margin: 0 32px;
+    };
+
+    @media (max-width: 979px) {
+        margin: 0 24px;
+    };
+    
+    @media (max-width: 767px) {
+        margin: 0 16px;
+        margin-bottom: 96px;
+
+    };
+
+    @media (min-width: 768px) {
+        margin-bottom: 144px;
+    };
+
+}
+
+.help__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+
+    @media (min-width: 768px) {
+    };
+    
+    @media (max-width: 767px) {
+        margin-bottom: 12px;
+        width: 288px;
+    };
+}
+
+.help__card__text {
+    font-weight: 600;
+    text-align: center;
+
+
+    @media (min-width: 768px) {
+        font-size: 20px;
+    };
+    
+    @media (max-width: 767px) {
+        width: 208px;
+        font-size: calc(18px + 2 * (100vw - 320px) / 768);
     };
 }
