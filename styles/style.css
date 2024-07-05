@@ -834,7 +834,7 @@
     flex-direction: column;
     font-family: 'Futura PT';
     background-color: #F9FAFD;
-    width: 100vw;
+    /* width: 100vw; */
 
     @media (max-width: 1175px) {  
         padding-top: 0;
