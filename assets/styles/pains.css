@@ -1,0 +1,155 @@
+.pains {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 96px 0;
+
+    @media (max-width: 767px) {
+        margin: 0 0 72px 0;
+    }
+}
+
+.pains__header {
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 0 80px 0;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.25%;
+    
+    @media (max-width: 767px) {
+        margin: 0 0 56px 0;
+        font-size: calc(32px + 8 * (100vw - 320px) / 768);
+        line-height: 38px;
+    };
+}
+
+.pains__cards__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    @media (max-width: 1221px) {
+        gap: 5px;
+    };
+
+    @media (max-width: 1175px) {
+        gap: 24px
+    };
+    
+    @media (max-width: 767px) {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 12px;
+    };
+}
+
+.pains__cards__item {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #DBE3F0;
+    border-radius: 20px;
+    padding: 20px;
+    flex-grow: 0;
+    align-items: baseline;
+    min-height: 272px;
+
+    @media (max-width: 979px) {
+        padding: 24px;
+        flex-grow: 1;
+        flex-basis: 290px;
+    };
+
+    @media (max-width: 767px) {
+        padding: 24px 32px;
+        min-height: none;
+    };
+}
+
+.card__text__container {
+    max-width: 100%;
+
+    @media (max-width: 979px) {
+        max-width: 300px;
+        padding: 8px;
+    };
+
+    @media (max-width: 767px) or (max-width: 1175px) {
+        max-width: 224px;
+    };
+}
+
+.pains__card-1 {
+    flex-grow: 0;
+
+    @media (max-width: 767px) {
+        max-width: none;
+        flex-grow: 1;
+    };
+}
+
+.pains__card-2 {
+    flex-grow: 0;
+
+    @media (max-width: 979px) {
+        flex-grow: 4;
+    };
+
+    @media (max-width: 767px) {
+        flex-grow: 1;
+    };
+}
+
+.pains__card-3 {
+    flex-grow: 2;
+
+    @media (max-width: 767px) {
+        flex-grow: 1;
+    };
+}
+
+.card__text {
+    font-family: "Futura PT";
+    font-weight: 600;
+    letter-spacing: 0.25%;
+    line-height: 32px;
+    margin: 0;
+    max-width: 328px;
+    font-size: 24px;
+
+    @media (max-width: 767px) {
+        font-size: calc(20px + 4 * (100vw - 320px) / 768);
+        line-height: 28px;
+    };
+}
+
+.pains__conclusion {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 144px 0;
+}
+
+.pains__conclusion__container {
+    width: 768px;
+
+    @media (max-width: 767px) {
+        width: (320px + 448 * (100vw - 320px) / 768);
+    };
+}
+
+.pains__conclusion__text {
+    text-align: center;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.25%;
+    
+    @media (max-width: 767px) {
+        font-size: calc(20px + 4 * (100vw - 320px) / 768);
+    };
+}
