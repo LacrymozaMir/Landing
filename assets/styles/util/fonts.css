@@ -2,33 +2,33 @@
     font-family: "Futura PT";
     font-weight: 400;
     src: local("Futura PT"),
-         url("../fonts/Futura-PT_Book.ttf");
+        url("../../../assets/fonts/Futura-PT_Book.ttf")
 }
 
 @font-face {
     font-family: "Futura PT Cond";
     font-weight: 500;
     src: local("Futura PT Cond"),
-         url("../fonts/Futura-PT_Cond-Medium.ttf");
+        url("../../../assets/fonts/Futura-PT_Cond-Medium.ttf");
 }
 
 @font-face {
     font-family: "Futura PT";
     font-weight: 500;
     src: local("Futura PT"),
-         url("../fonts/Futura-PT_Medium.ttf");
+        url("../../../assets/fonts/Futura-PT_Medium.ttf");
 }
 
 @font-face {
     font-family: "Futura PT";
     font-weight: 600;
     src: local("Futura PT"),
-         url("../fonts/Futura-PT_Demi.ttf");
+        url("../../../assets/fonts/Futura-PT_Demi.ttf");
 }
 
 @font-face {
     font-family: "Futura PT";
     font-weight: 800;
     src: local("Futura PT"),
-         url("../fonts/Futura-PT_Heavy.ttf");
+        url("../../../assets/fonts/Futura-PT_Heavy.ttf");
 }
