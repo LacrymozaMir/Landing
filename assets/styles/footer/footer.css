@@ -3,16 +3,11 @@
     align-items: center;
     flex-direction: column;
     font-family: 'Futura PT';
-    background-color: #F9FAFD;
     padding-top: 0;
     margin: 0;
     background-color: #F9FAFD;
     width: 100vw;
     margin-left: calc(50% - 50vw);
-
-    @media (max-width: 979px) {  
-        padding-top: 144px;
-    };
 
     @media (max-width: 767px) {  
         padding-top: 56px;
@@ -24,7 +19,6 @@
     display: flex;
     flex-direction: column;
     margin: 0 32px;
-    border: 1px solid black;
 
     @media (max-width: 979px) {  
         margin: 0 24px;

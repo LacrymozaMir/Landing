@@ -30,6 +30,11 @@
     gap: 12px;
 }
 
+.footer__link__item__icon {
+    width: 24px;
+    height: 24px;
+}
+
 .footer__link__item__text {
     font-weight: 500;
     font-size: 18px;
