@@ -16,7 +16,8 @@
     }
 
     @media (max-width: 767px) {
-        padding-bottom: 178px;
+        padding-bottom: 171px;
+        background-position: center top 288px;
     }
 
 }
@@ -64,7 +65,11 @@
     }
 
     @media (max-width: 767px) {
-        width: 100vw;
+        width: 100%;
+    }
+
+    @media (max-width: 350px) {
+        width: 90%;
     }
 }
 
@@ -105,8 +110,9 @@
     }
 
     @media (max-width: 767px) {
-
+        font-size: 18px;
     }
+
 }
 
 .upper-text {
@@ -138,6 +144,8 @@
     @media (max-width: 767px) {
         font-size: 44px;
         line-height: 44px;
+        width: 256px;
+        text-align: center;
     }
 }
 
@@ -176,8 +184,11 @@
     }
 
     @media (max-width: 767px) {
-
+        width: 256px;
+        height: 48px;
     }
+
+
 }
 
 .header__details {
